@@ -61,8 +61,9 @@
     background-color: rgb(43, 119, 226);
     width: 100%;
     align-items: center;
-    justify-content: space-around;
-    padding-left: 120px;
+    padding-inline: 160px;
+    gap: 80px;
+    justify-content: flex-start;
 }
 
 .recently-played figure{
@@ -70,6 +71,57 @@
     width: 150px;
     height: 150px;
     background-color: beige;
+
+}
+.john-doe{
+    display: flex;
+    height: 200px;
+    background-color: bisque;
+    width: 100%;
+    align-items: center;
+    justify-content:flex-start;
+    padding-inline: 160px;
+    gap: 80px;
+
+}
+.john-doe figure{
+    aspect-ratio: 1;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    padding-left: 120px;
+
+}
+.popolari{
+    display: flex;
+    height: 200px;
+    background-color: rgb(129, 75, 9);
+    width: 100%;
+    align-items: center;
+    justify-content:flex-start;
+    padding-inline: 160px;
+    gap: 80px;
+
+}
+.popolari figure{
+    aspect-ratio: 1;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    padding-left: 120px;
+
+}
+footer{
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    background-color:brown;
+    height: 100px;
+    z-index: 2;
+   
+}
+.sinister{
 
 }
 
