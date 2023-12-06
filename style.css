@@ -3,125 +3,23 @@
     margin: 0;
     box-sizing: border-box;
 }
+.web-app{
+    height: 100vh;
+}
 .parte1{
-    display: flex;
-    flex-wrap: wrap;
+    height: calc(100%-120px);
+}
+
+.parte2{
+    height: 120px;
+    background-color: blueviolet;
 }
 .sidebar{
-    display: flex;
-    flex-direction: column;
     background-color: black;
-    width: 120px;
-    height: 800px;
-    position: fixed;
-    z-index: 2;
+    height: 100%;
+    width: 100px;
 }
 
-.btn-upgrade{
-    display: flex;
-    height:100px;
-    background-color: aquamarine;
-    width: 100%;
-    justify-content: end;
-    align-items: center;
-}
-.btn-upgrade a{
-   width:100px;
-   background-color: blue;
-   height: 30px;
-   margin-right: 80px;
- 
-}
 
-.menu{
-    display: flex;
-    height:60px;
-    background-color: rgb(77, 32, 182);
-    width: 100%;
-    justify-content: center;
-}
 
-.menu ul{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.menu ul li{
-    list-style-type: none;
-    padding: 10px;
-    background-color: black;
-    width: 50px;
-    height: 30px;
-}
-
-.recently-played{
-    display: flex;
-    height: 200px;
-    background-color: rgb(43, 119, 226);
-    width: 100%;
-    align-items: center;
-    padding-inline: 160px;
-    gap: 80px;
-    justify-content: flex-start;
-}
-
-.recently-played figure{
-    aspect-ratio: 1;
-    width: 150px;
-    height: 150px;
-    background-color: beige;
-
-}
-.john-doe{
-    display: flex;
-    height: 200px;
-    background-color: bisque;
-    width: 100%;
-    align-items: center;
-    justify-content:flex-start;
-    padding-inline: 160px;
-    gap: 80px;
-
-}
-.john-doe figure{
-    aspect-ratio: 1;
-    width: 150px;
-    height: 150px;
-    background-color: rgb(0, 0, 0);
-    padding-left: 120px;
-
-}
-.popolari{
-    display: flex;
-    height: 200px;
-    background-color: rgb(129, 75, 9);
-    width: 100%;
-    align-items: center;
-    justify-content:flex-start;
-    padding-inline: 160px;
-    gap: 80px;
-
-}
-.popolari figure{
-    aspect-ratio: 1;
-    width: 150px;
-    height: 150px;
-    background-color: rgb(0, 0, 0);
-    padding-left: 120px;
-
-}
-footer{
-    position:absolute;
-    bottom:0;
-    left:0;
-    width:100%;
-    background-color:brown;
-    height: 100px;
-    z-index: 2;
-   
-}
-.sinister{
-
-}
 
